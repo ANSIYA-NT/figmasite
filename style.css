@@ -1,0 +1,244 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 20px;
+
+}
+
+.li1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.first img {
+    width: 100%;
+
+}
+
+.third img {
+    width: 100%;
+
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.third1 {
+    position: absolute;
+    top: 280%;
+    left: 50px;
+    color: white;
+ 
+    text-align: left;
+
+}
+
+.four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    background-color: darkgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.five {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box img{
+    width: 450px;
+    height: 450px;
+}
+form{
+    margin:20px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="company"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="opinion"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:darkslategrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color:grey;
+}
+.six{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.seven{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.seven h1{
+    text-align: center;
+}
+.seven1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 30px;
+}
+.seven1 p{
+    cursor: pointer;
+}
+.eight{
+    background-color: darkgrey; 
+    margin-top: 20px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eight button{
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.nine{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+    color:white;
+}
+.nine4{
+    display:block;
+}
+.nine5{
+    display: flex;
+}
+.nine6{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+@media (max-width:992px){
+    header{
+        padding: 1.3rem 5%;
+    }
+
+}
+@media (max-width: 760px) {
+  .second{
+    display: block;
+ 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .third1{
+    top: 150%;
+font-size: 10px;
+  }
+  .four {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.five {
+    display: block;
+    margin-left: 180px;
+    margin-right: 180px;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nine{
+    background-color: black;
+    display:block;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.nine5{
+    display: block;
+}
+.nine6{
+    display: block;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+}
+@media (max-width: 480px) {
+    .third1{
+        top: 150%;
+    font-size: 10px;
+      }
+}
+
